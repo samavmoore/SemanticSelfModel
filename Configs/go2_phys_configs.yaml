@@ -1,0 +1,4 @@
+model_path: "Robots/unitree_go2/scene.xml"
+data_dir: "Phys_Data"
+n_samples: 10
+seed: 0

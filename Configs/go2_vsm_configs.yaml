@@ -1,0 +1,118 @@
+model_path: "Robots/unitree_go2/scene.xml"
+data_dir: "Balanced_Data"
+pix_height: 480
+pix_width: 640
+vol_bbox: [-2, 2, -2, 2, -2, 2]
+n_samples: 20000
+seed: 746
+cam_configs:
+  - name: "front"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 0
+    elevation: 0
+  - name: "back"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 180
+    elevation: 0
+  - name: "left"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 90
+    elevation: 0
+  - name: "right"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 270
+    elevation: 0
+  - name: "top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 0
+    elevation: 90
+  - name: "bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 0
+    elevation: -90
+  - name: "front_left_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 45
+    elevation: 45
+  - name: "front_right_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 315
+    elevation: 45
+  - name: "front_left_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 45
+    elevation: -45
+  - name: "front_right_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 315
+    elevation: -45
+  - name: "back_left_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 135
+    elevation: 45
+  - name: "back_right_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 225
+    elevation: 45
+  - name: "back_left_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 135
+    elevation: -45
+  - name: "back_right_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 225
+    elevation: -45
+  - name: "left_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 90
+    elevation: 45
+  - name: "right_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 270
+    elevation: 45
+  - name: "left_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 90
+    elevation: -45
+  - name: "right_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 270
+    elevation: -45
+  - name: "front_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 0
+    elevation: 45
+  - name: "front_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 0
+    elevation: -45
+  - name: "back_top"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 180
+    elevation: 45
+  - name: "back_bottom"
+    lookat: [0, 0, 0]
+    distance: 2
+    azimuth: 180
+    elevation: -45

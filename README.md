@@ -4,9 +4,11 @@ We started this projected with the intention of extending Boyuan Chen's work _Fu
 
 <img width="858" height="252" alt="VSM_science_robotics" src="https://github.com/user-attachments/assets/43cd4175-4c57-4177-b07c-a07c2f9796e7" />
 
-We noticed issues with scalability when attempting to apply the original archtitecture directly to a quadruped. So, the first thing that this code does is test all of the architectures in the figure below on the unitree Go2:
+We noticed issues with scalability when attempting to apply the original archtitecture directly to a quadruped. So, the first thing that this code does is test all of the architectures in the figure below on the unitree Go2: 
 
-<img width="654" height="600" alt="VSM_architectures" src="https://github.com/user-attachments/assets/920c7898-0116-4782-ba14-5a3d27bdefdc" />
+
+<img width="654" height="600" alt="VSM_architectures" src="https://github.com/user-attachments/assets/5dfc5080-e78b-4e75-93a4-e91e37c66bd6" />
+
 
 The blue layers use siren activations while gray use ReLU. The Hadamard product indicates the product of features, that almost modulates the frequencies like attention x_l+1 = sin(w * z_q^l * x_l + b). The models that work the best (b and e), split the leg data, q = [q1, q2, q3, q4], into seperate encoders before fusing into a global representation. 
 

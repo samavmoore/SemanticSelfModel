@@ -1,4 +1,4 @@
-# Semantic Visual Self-Modeling for Whole-Body Awareness and Planning
+# Semantic Visual Self-Modeling for Whole-Body Awareness in Legged Robots
 
 We started this projected with the intention of extending my advisor's PhD work _Full-body visual self-modeling of robot morphologies_ ([Arxiv](https://arxiv.org/abs/2111.06389)) to legged robots. The original framework uses deformable implicit 3-D representations (DeepSDFs with siren layers) conditioned on joint-angles to model robot bodies from pointcloud observations. Then, they use this model (shown below) for a range of downstream planning tasks.
 

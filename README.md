@@ -1,6 +1,6 @@
 # Semantic Visual Self-Modeling for Whole-Body Awareness in Legged Robots
 
-We started this projected with the intention of extending my advisor's PhD work _Full-body visual self-modeling of robot morphologies_ ([Arxiv](https://arxiv.org/abs/2111.06389)) to legged robots. The original framework uses deformable implicit 3-D representations (DeepSDFs with siren layers) conditioned on joint-angles to model robot bodies from pointcloud observations. Then, this model (shown below) is used for a range of downstream planning tasks.
+We started this projected with the intention of extending [my advisor's](http://boyuanchen.com/) PhD work _Full-body visual self-modeling of robot morphologies_ ([Arxiv](https://arxiv.org/abs/2111.06389)) to legged robots. The original framework uses deformable implicit 3-D representations (DeepSDFs with siren layers) conditioned on joint-angles to model robot bodies from pointcloud observations. Then, this model (shown below) is used for a range of downstream planning tasks.
 
 <img width="858" height="252" alt="VSM_science_robotics" src="https://github.com/user-attachments/assets/43cd4175-4c57-4177-b07c-a07c2f9796e7" />
 

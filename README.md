@@ -1,6 +1,6 @@
 # Semantic Visual Self-Modeling for Whole-Body Awareness in Legged Robots
 
-We started this projected with the intention of extending my advisor's PhD work _Full-body visual self-modeling of robot morphologies_ ([Arxiv](https://arxiv.org/abs/2111.06389)) to legged robots. The original framework uses deformable implicit 3-D representations (DeepSDFs with siren layers) conditioned on joint-angles to model robot bodies from pointcloud observations. Then, they use this model (shown below) for a range of downstream planning tasks.
+We started this projected with the intention of extending my advisor's PhD work _Full-body visual self-modeling of robot morphologies_ ([Arxiv](https://arxiv.org/abs/2111.06389)) to legged robots. The original framework uses deformable implicit 3-D representations (DeepSDFs with siren layers) conditioned on joint-angles to model robot bodies from pointcloud observations. Then, this model (shown below) is used for a range of downstream planning tasks.
 
 <img width="858" height="252" alt="VSM_science_robotics" src="https://github.com/user-attachments/assets/43cd4175-4c57-4177-b07c-a07c2f9796e7" />
 
@@ -11,7 +11,7 @@ We wanted to address a few limitations/challenges of the original work:
 3. SDFs only provide geometric information while additional semantic information would be
    invaluable for downstream tasks like self/world modeling and planning. 
 
-So, the first thing that this code does is test all of the architectures in the figure below (a is original while others are new) on the unitree Go2 to determine their scalability to higher DOF platforms that robot arms.
+The first thing that this code does is test all of the architectures in the figure below (a is original while others are new) on the unitree Go2 to determine their scalability to higher DOF platforms that robot arms.
 
 <img width="654" height="600" alt="VSM_architectures" src="https://github.com/user-attachments/assets/5dfc5080-e78b-4e75-93a4-e91e37c66bd6" />
 
